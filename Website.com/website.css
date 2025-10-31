@@ -1,0 +1,937 @@
+.whole-webpage {
+    height: 100vh;
+    background: url("cooking2.gif")no-repeat center center;
+    background-size: cover;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+}
+
+
+
+.flex-content {
+    display: flex;
+    height: 60px;
+
+}
+
+.flex-content2 {
+    display: flex;
+    height: 90px;
+    background-color: white;
+
+}
+
+.envato {
+    font-size: 25px;
+    font-weight: bold;
+    color: lawngreen;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+
+}
+
+.inside1 {
+    margin-top: 7px;
+}
+
+.inside2 {
+    margin-left: 80%;
+    margin-top: 10px;
+
+}
+
+.icon {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 210px;
+    background-color: red ;
+    border-radius: 30px;
+}
+
+.list-item {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.lists {
+    margin-top: 30px;
+    margin-left: 200px;
+
+}
+
+.button2 {
+    width: 30px;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+.random {
+    height: 584px;background-color: rgba(0, 0, 0, 0.34);
+}
+
+.insidecnt1 {
+    margin-top: 140px;
+}
+
+.text2 {
+    margin: 0px;
+    margin-top: 80px;
+    font-size: 100px;
+    color: white;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    animation: slideIn 1s ease-out forwards;
+}
+@keyframes slideIn {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(1%);
+        opacity: 1;
+    }
+    
+}
+
+.text3 {
+    font-size: 40px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: slideIn 2s ease-out forwards;
+}
+
+.one-border {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.move-content {
+    margin-top: 90px;
+    margin-left: 20px;
+    animation: slideIn 2.5s ease-out forwards;
+}
+
+.oneborder {
+    border: 1px solid white;
+    padding: 20px;
+
+}
+
+
+.two-border {
+    border: 1px solid white;
+    padding: 20px;
+    border-left: none;
+    border-right: none;
+
+}
+
+.three-border {
+    border: 1px solid white;
+    padding: 20px;
+
+
+}
+
+.order {
+    margin-top: 90px;
+    margin-left: 20px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: slideIn 2s ease-out forwards;
+}
+
+.provide {
+    color: white;
+    font-size: 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nxt-page2 {
+    height: 700px;
+    width: 100%;
+}
+
+.flex-content3 {
+    padding: 5px;
+    display: flex;
+}
+
+.smlflx {
+    margin-top: 90px;
+    display: flex;
+}
+
+.our-story {
+    width: 49%;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(162, 160, 160);
+    font-family: 'Great Vibes', cursive;
+}
+
+.heading2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inhead {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(94, 88, 88);
+    padding: 2px;
+}
+
+.table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 0;text-align: center;
+}
+
+.formsa {
+    margin-top: 20px;
+    width: 80%;
+    box-shadow: 10px 20px 60px gainsboro;
+    height: 570px;
+    margin-left: 66px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.forms {
+      margin-top: 40px;
+    width: 100%;
+}
+.first{
+      height: 60px;
+    width: 100%;
+    padding: 0;
+   
+  
+ 
+    text-align: center;
+}
+
+
+.book-now {
+    font-size: 20px;
+
+    margin-left: 36%;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.book-now:hover {
+    background-color: white;
+
+    color: red;
+}
+
+.smlflx1 {
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    border: 1px solid rgb(204, 201, 201);
+    padding-left: 50px;
+    padding-right: 80px;
+    border-right: none;
+    margin-top: 50px;
+}
+
+.flxb {
+    margin-left: 30px;
+}
+
+.smlflx2 {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 50px;
+    display: flex;
+    border: 1px solid rgb(197, 194, 194);
+    padding-left: 30px;
+}
+
+.icon2 {
+    position: absolute;
+    background-color: white;
+    font-size: 40px;
+    color: red;
+    margin-left: 69.5%;
+    height: 100px;width: 100px;
+    margin-top: 15px;
+    box-shadow: 10px 10px 30px gainsboro;
+    border-radius: 180px;
+}
+.spoon{
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.icon3 {
+    color: red;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.imageflx {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+
+}
+
+.imageflx1 {
+
+    width: 400px;
+    height: 400px;
+    background: url("bgimage1.png")no-repeat center center;
+    background-size: cover;
+
+}
+
+.imageflx2 {
+
+    width: 400px;
+    height: 400px;
+    background: url("bgimage2.png")no-repeat center center;
+    background-size: cover;
+
+}
+
+.imageflx3 {
+
+    width: 400px;
+    height: 400px;
+    background: url("bgimage3.png")no-repeat center center;
+    background-size: cover;
+
+}
+
+.champagne {
+    margin-top: 33px;
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+
+.box1 {
+    
+         color: rgba(255, 0, 0, 0.712);
+    margin-left: 150px;
+   
+    background-color: rgba(255, 255, 255, 0.619);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    animation: dropdown 2s ease-out forwards;
+
+}
+
+@keyframes dropdown {
+    0%{
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(10%);
+        opacity: 1;
+    }
+    
+}
+
+
+.innerBox {
+    width: 400px;padding-top: 100px;
+  height: 400px;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.party{
+    color: white;text-align: center;
+    margin-top: 45px;
+}
+.party>p{
+    font-size: 15px;width: 90%;margin-left: 15px;
+    padding: 10px;
+}
+.menu{
+    text-align: center;margin-top: 90px;
+}
+.discover{
+    color: red;
+    font-family: 'Great Vibes', cursive ;
+    font-size: 35px;font-weight: lighter;margin-bottom: 0;
+}
+.our-menu{
+    font-weight: bolder;
+    color: rgb(4, 4, 49);
+    font-size: 30px;margin-bottom: 0;
+}
+.slash{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+.cnt1{
+    width: 80%;margin-left: 140px;color: grey;
+}
+.all{
+    margin-left: 25px;text-align: center;
+    font-weight: bold;color: rgb(103, 100, 100);
+}
+.buttons{
+    margin-left: 20%;
+    border: 1px solid rgb(228, 226, 226) ;
+    padding: 7px;width: 65%;
+    border-left: none;border-right: none;
+}
+.menu-images{
+    width: 100%;
+}
+.respon {
+    box-shadow: 10px 10px 10px rgb(244, 240, 233);
+    /* margin-left: 40px; */
+    border-radius: 10px;height: 580px;text-align: center;
+    width: 100px;height: 600px;
+}
+.pizza{
+    width: 102%;margin-top: 1px;margin-left: 5px;
+  border-radius: 5px;  
+}
+.doller{
+    background-color: rgb(192, 49, 49);
+    color: white;text-decoration: none;
+    width: 70px;padding: 7px;border-radius: 20px;position: absolute;
+    margin-left: 23%;margin-top: 10px;
+}
+.pizzacnt{
+    font-weight: bold;
+    text-decoration: none;margin-top: 20px;margin-bottom: 20px;
+    color: black;display: inline-block;
+}
+.pizzacnt2{
+    padding: 10px;color: grey;
+}
+.menu-order{
+    color: red;margin-bottom: 20px;
+}
+.family-image{
+    width:5200px;
+}
+.party{
+   width: 100%;height: 650px;
+}
+.family-party{
+    display: flex;
+}
+.familycnt{
+    background-color: rgb(234, 232, 232);
+    margin-top: 45px;padding-left: 100px;height: 650px;
+}
+.special{
+    font-family: 'Great Vibes',cursive;
+    font-size: 40px;color: rgb(82, 80, 80);
+    margin-top: 100px;
+}
+.bold{
+  font-weight: bold;
+  font-size: 35px;
+}
+.familycnt1{
+    color: rgb(84, 82, 82);
+}
+.tblbook{
+    margin-top: 45px;
+    border: 2px solid black;
+    padding: 15px;font-size: 20px;
+}
+.tblbook:hover{
+         background-color: black;
+         color: white;
+}
+.price2{
+    background-color: white;text-align: center;
+    height: 100px;width: 100px;border-radius: 80px;
+    position: absolute;margin-top: 80px;margin-left: 47% ;
+
+}
+.amnt{
+    color: rgb(237, 2, 81);display: inline-block;
+    font-weight: bold;margin-top: 30px;
+}
+.amnt1{
+    color: grey;
+    font-weight: bold;
+}
+
+
+/* chefs-card */
+
+.chefs-images{
+    height: 600px;
+}
+.chefcnt1{
+    margin-top: 100px;text-align: center;
+    color: grey;
+}
+.chefsimg{
+  text-align: center;
+   justify-content: space-between;
+
+}
+.names{
+      box-shadow: 10px 10px 40px rgb(240, 240, 240);background-color: white;
+      margin-top: 350px;margin-left: 35px;border-radius: 10px;
+      
+      width: 80%;position: absolute;border-bottom: 1px solid rgb(184, 184, 184);
+}
+.details{
+    color: grey;
+    font-size: 20px;margin-top: 15px;
+}
+.details2{
+    color: rgb(255, 33, 107);font-size: 13px;
+    font-weight: bold;border: 1px solid grey;width: 60px;
+    margin-left: 110px;border-radius: 10px;
+}
+
+
+
+/* reviews */
+
+.reviews{
+    
+    background-color: rgb(242, 242, 242);
+    height: 900px; width: 100%;
+}
+.rev-flx{
+    margin-top: 160px;
+    display: flex;justify-content: space-between;
+}
+.review1{
+    background-color: white;box-shadow: 10px 10px 30px rgb(209, 208, 208);
+    text-align: center;margin-left: 18px;margin-right: 17px;height: 400px;width: 50%;
+}
+.rev-img1{
+    margin-top: 20px;
+    background-color: white;box-shadow: 10px 10px 20px rgb(219, 219, 219);
+    height: 100px;width: 100px;border-radius: 50px;margin-left: 41%;margin-top: 40px;
+}
+.revname{
+    margin-top: 20px;
+}
+.comment1{
+    color: rgb(148, 148, 148);margin-top: 20px;padding: 10px;
+}
+.rating{
+    display: inline-block;
+    margin-top: 12px;
+}
+.revpic{
+    height: 80px;
+    width: 80px;margin-top: 10px;
+    border-radius: 80px;
+}
+.awesome{
+    margin-top: 40px;
+}
+.rew{
+     text-align: center;margin-top: 90px;margin-top: 70px;
+}
+
+.discover1{
+    
+    color: red;
+    font-family: 'Great Vibes', cursive ;margin-top: 80px;
+    font-size: 35px;font-weight: lighter;
+
+}
+
+/* blog latest news */
+.burgflx{
+    display: flex;width: 100%;
+}
+
+.bgburg{
+     height: 300px;width: 650px;margin-left: 20px;
+    background: url("burg1.jpg")no-repeat center center;
+    background-size: cover;
+}
+.burgdate{
+    display: flex;width: 100%;
+}
+.aug{
+    margin-top: 270px;color: white;
+    margin-left: 20px;
+}
+.admin{
+  margin-top: 270px;color: white;
+    margin-left: 150px;text-decoration: none;
+}
+.admin2{
+   margin-top: 270px;color: white;
+    margin-left: 10px;text-decoration: none;
+}
+.conviction{
+ margin-left: 20px;
+}
+.compare{
+    color: black;font-weight: bold;font-size: 25px;
+    text-decoration: none;
+}
+.compare:hover{
+    color: orangered;
+}
+.para5{
+    color:rgb(88, 87, 87) ;
+    width: 500px;margin-top: 10px;padding: 10px;
+}
+.readmore{
+   color: orangered;
+   border: 1.5px solid orangered;border-radius: 20px;
+   margin-top: 40px;
+   padding: 10px;padding-left: 20px;padding-right: 20px;
+}
+.readmore:hover{
+    color: white;
+    background-color: rgb(186, 50, 0);
+}
+.momos{
+    display: flex;
+}
+.momopics{
+    height: 250px;
+    width: 270px;margin-left: 30px;
+}
+.momocnt{
+    margin-left: 20px;margin-right: 1px;margin-top: 15px;
+}
+.momocnt1{
+    color: rgb(106, 105, 105);margin-top: 20px;
+}
+.admin3{
+    color: rgb(103, 102, 102);text-decoration: none;font-weight: bold;font-size: 13px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+}
+.admin4{
+    color: rgb(103, 102, 102);text-decoration: none;font-weight: bold;font-size: 13px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-left: 10px;
+}
+.burglink1{
+    color: black;font-weight: bold;font-size: 25px;
+    text-decoration: none;margin-top: 10px;display: inline-block;
+}
+.burglink1:hover{
+    color: orangered;
+}
+.momopics2{
+    height: 250px;margin-top: 20px;
+    width: 270px;margin-left: 30px;
+}
+
+
+/* Footer */
+
+
+footer{
+    margin-top: 90px;height: 534px;width: 100%;
+}
+.address1{
+    color: white;margin-top: 40px;margin-left: 20px;
+}
+.number{
+    margin-left: 20px;
+}
+.foothead{
+    margin-top: 80px;margin-left: 0px;
+}
+.food-menu{
+     color: white;
+}
+.food-list{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;display: inline-block;
+   
+}
+.feed{
+    color: white;
+}
+.foodimg{
+    height: 80px;
+    width: 80px;
+    
+}
+.foodimg1{
+    height: 80px;
+    width: 80px;
+   margin-top: 10px;
+    
+}
+.foothead1{
+   color: white;
+}
+.timings{
+    margin-left: 90px;color: gainsboro;
+}
+.timings3{
+    margin-left: 125px;color: gainsboro;
+}
+.timings4{
+    margin-left: 150px;color: gainsboro;background-color: red;
+    border-radius: 5px;padding: 5px;
+}
+.timings1{
+    margin-left: 95px;color: gainsboro;
+}
+.timedeat{
+    margin-left: 1px;
+}
+
+
+/* media qurry */
+
+
+@media (max-width:768px) 
+{
+    header {
+    position: fixed;
+    width: 99%;
+    top: 0px;
+    z-index: 50;
+}
+    .whole-webpage {
+    height: 100vh;
+    background: url("cooking2.gif")no-repeat center center;
+    background-size: 1000px;margin-top: 0;width: 99%;
+}
+.inside2 {
+    margin-left: 60%;
+    margin-top: 10px;
+
+}
+.flex-content {
+    display: flex;
+    height: 60px;
+
+}
+.flex-content2 {
+    display: flex;
+    height: 90px;
+    background-color: red;width: 100%;
+
+}
+.imageg{
+    background-color: red;
+}
+  
+.icon {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 150px; 
+ background-color: red !important;
+    border-radius: 10px;
+}
+
+.list-item {
+    margin: 10px;
+    text-decoration: none;
+    color: white;font-size: 10px;
+}
+
+.lists {
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.button2 {
+    width: 30px;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+/* forms and paragraph */
+
+.random {
+    height: 574px;background-color: rgba(0, 0, 0, 0.34);
+}
+.our-story{
+    width: 100%;
+}
+.heading{
+    font-size: 35px;
+}
+.flex-content3{
+    flex-wrap: wrap;
+}
+.smlflx{
+    margin-top: 10px;
+    width: 100%;
+}
+.smlflx1{
+    width: 150%;
+    margin-left: 75px;
+}
+.forms{
+    width: 100%;
+}
+.icon2{
+    margin-top: 550px;
+    margin-left: 330px;
+}
+
+
+
+/* imageflex-content */
+
+.imageflx{
+    margin-top: 550px;
+}
+.imageflx3 {
+   
+    display: none;
+}
+.imageflx1{
+    width: 345px;
+    height: 350px;
+    margin-left: 10px;
+}
+.imageflx2{
+     width: 345px;
+    height: 350px;
+    margin-left: 0px;
+}
+.innerBox{
+      width: 345px;
+    height: 350px;
+}
+.box1{
+    margin-left: 130px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.party{
+     margin-top: 0px;
+}
+.menu{
+    margin-top: 20px;
+    
+}
+.cnt1{
+    width: 100%;
+    margin-left: 0;
+}
+.buttons{
+    margin-left: 0;width: 100%;
+}
+.family-party{
+ flex-wrap: wrap;
+
+}
+.familycnt{
+    margin-top: 0px;margin-left: 0px;
+    text-align: center;
+   
+}
+.special{
+    margin-right: 90px;margin-top: 80px;
+}
+.bold{
+    margin-right: 80px;
+}
+.familycnt1{
+    margin-right: 100px;
+}
+.tblbook{
+    margin-right: 80px;
+
+}
+.price2{
+    margin-top: 600px;
+}
+.burgflx{
+    flex-wrap: wrap;
+}
+.bgburg{
+    width: 740px;
+    height: 350px;
+}
+.burgflx2{
+    margin-top: 20px;
+}
+.footer{
+    height: 900px;width: 110%;
+}
+.foothead1{
+    margin-left: px;
+}
+.foodimg{
+    margin-left: 5px;
+}
+.foodimg1{
+    margin: 5px;
+}
+.names{
+    margin-top: 680px;
+    margin-left: 50px;
+}
+.details2{
+    margin-left: 260px;
+}
+.footer{
+    width: 100%;
+    
+}
+.rev-img1{
+    margin-top: 0px;
+    margin-left:36% ;
+}
+.comment1{
+    margin-top: 0px;
+    font-size: 13px;
+}
+.rescafeic{
+    margin-top: 10px;
+}
+.foothead{
+    margin-top: 30px;
+}
+
+}
+
+/* MEdia qurry 425px for mobile */
+
+@media (max-width:425px) 
+{
+
+
+
+     .whole-webpage {
+    height: 100px;
+    width: 50%;
+}
+
+.flex-content2{
+    
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+
+}

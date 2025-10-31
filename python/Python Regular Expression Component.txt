@@ -1,0 +1,70 @@
+Python Regular Expression Components (All Columns You Need)
+ðŸ”¤ Character Classes
+Pattern	Matches
+.	Any character except newline
+\d	Any digit (0â€“9)
+\D	Any non-digit
+\w	Word characters (a-z, A-Z, 0-9, _)
+\W	Non-word characters
+\s	Whitespace (space, tab, newline)
+\S	Non-whitespace
+[abc]	Matches a, b, or c
+[^abc]	Not a, b, or c
+[a-z]	Any lowercase letter
+[A-Z]	Any uppercase letter
+[0-9]	Any digit
+
+ðŸ§® Quantifiers
+Pattern	Meaning
+*	0 or more
++	1 or more
+?	0 or 1 (optional)
+{n}	Exactly n times
+{n,}	At least n times
+{n,m}	Between n and m times
+
+ðŸ“Œ Anchors
+Pattern	Meaning
+^	Start of string
+$	End of string
+\A	Start of string (strict)
+\Z	End of string (strict)
+\b	Word boundary
+\B	Not a word boundary
+
+ðŸ§  Groups & Alternation
+Pattern	Meaning
+(abc)	Group abc
+`a	b`
+(?:abc)	Non-capturing group
+(?P<name>...)	Named group
+(?=...)	Positive lookahead
+(?!...)	Negative lookahead
+(?<=...)	Positive lookbehind
+(?<!...)	Negative lookbehind
+
+ðŸ”§ Escape Sequences
+Pattern	Meaning
+\\	Literal backslash
+\.	Literal dot .
+\*, \+	Literal *, +, etc.
+\t	Tab
+\n	Newline
+\r	Carriage return
+
+ðŸ§ª Flags (Modifiers)
+Flag	Meaning
+re.IGNORECASE or re.I	Case-insensitive matching
+re.MULTILINE or re.M	^ and $ match each line
+re.DOTALL or re.S	. matches newline too
+re.VERBOSE or re.X	Allow comments & whitespace in pattern
+re.ASCII or re.A	Make \w, \d, \s match only ASCII
+
+ðŸ§  Example Patterns
+ðŸ“¦ Python re Module Functions
+Function	Purpose
+re.match()	Checks only at the beginning
+re.search()	Checks anywhere in the string
+re.findall()	Returns all matching substrings
+re.sub()	Substitutes matched part
+re.split()	Splits string by regex

@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('Deepak1.jpg') center/cover no-repeat;
+  color: white;
+}
+.img1{
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+/* Skill Cards */
+.skill-card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  transition: 0.4s;
+}
+.skill-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 123, 255, 0.5);
+}
+.skill-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  transition: transform 0.5s ease;
+}
+.skill-card:hover .skill-icon {
+  transform: rotate(360deg) scale(1.2);
+}
+.skill-icon.html { color: #E44D26; }
+.skill-icon.css { color: #1572B6; }
+.skill-icon.js { color: #F7DF1E; }
+.skill-icon.python { color: #3776AB; }
+.skill-icon.bootstrap { color: #7952B3; }
+.skill-icon.react { color: #61DBFB; }
+.skill-icon.django { color: #0FA54D; }
+.skill-icon.git { color: #F1502F; }
+
+/* Services */
+.service-card {
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+/* Projects */
+.project-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}

@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.card1{
+     width: 450px;
+     height: 510px;
+     text-align: center;color: white;border-radius: 30px;
+     box-shadow: 10px 10px 70px rgb(0, 0, 0);
+}
+.profilepic{
+    border-radius: 100px;height: 200px;width: 200px;box-shadow: 10px 10px 50px black;
+    margin-top: 50px;
+}
+.name{
+    font-weight: bold;font-size: 30px;margin-top: 20px;
+}
+.bio{
+    padding: 10px;font-size: 16px;
+}
+.contact{
+    color: black;
+    background-color: white;font-size: 20px;
+    border: none;padding: 15px;border-radius: 20px;
+}
+.contact:hover{
+    background-color: black;
+    color: white;
+}
+

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieMode 🎥</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    /* Navbar styling */
+    .navbar {
+      background-color: #1a1a1a;
+      box-shadow: 0px 2px 10px rgba(255, 0, 85, 0.3);
+    }
+
+    .navbar-brand {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #ff0055 !important;
+    }
+
+    /* Expanding search bar */
+    .search-box {
+      position: relative;
+      height: 45px;
+    }
+
+    .search-input {
+      width: 45px;
+      height: 45px;
+      border-radius: 25px;
+      border: none;
+      outline: none;
+      padding: 10px 50px 10px 20px;
+      transition: 0.5s ease-in-out;
+      background-color: #2a2a2a;
+      color: white;
+      font-size: 16px;
+    }
+
+    .search-input::placeholder {
+      color: #aaa;
+    }
+
+    .search-btn {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 45px;
+      height: 45px;
+      background-color: #ff0055;
+      border: none;
+      border-radius: 50%;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .search-box.active .search-input {
+      width: 300px;
+      box-shadow: 0 0 15px #ff0055;
+    }
+
+    .search-box.active .search-btn {
+      background-color: #d40045;
+    }
+
+    /* Movie cards */
+    .movie-card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 10px;
+      transition: 0.3s;
+    }
+
+    .movie-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0px 0px 10px #ff0055;
+    }
+
+    h2 {
+      color: #ff0055;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar with Animated Search -->
+  <nav class="navbar navbar-dark px-3">
+    <a class="navbar-brand" href="#">🎬 MovieMode</a>
+
+    <div class="search-box" id="searchBox">
+      <form action="/search/" method="get">
+        <input type="text" name="q" class="search-input" placeholder="Search your favorite South Indian movie...">
+        <button type="button" class="search-btn" id="searchBtn">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Movie Results Section -->
+  <div class="container my-5">
+    <h2>Popular South Indian Movies</h2>
+    <div class="row g-4 mt-3">
+
+      <div class="col-md-3">
+        <div class="movie-card text-center p-2">
+          <img src="leo2.jpg" class="img-fluid rounded" alt="Leo Poster">
+          <h5 class="mt-2">Leo</h5>
+          <p>🧥 Brown Leather Jacket | 💼 Black Duffle Bag</p>
+          <button class="btn btn-outline-light btn-sm">View Accessories</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="movie-card text-center p-2">
+          <img src="vikram.jpg" class="img-fluid rounded" alt="Vikram Poster">
+          <h5 class="mt-2">Vikram</h5>
+          <p>🕶️ Sunglasses | 🔫 Tactical Vest</p>
+          <button class="btn btn-outline-light btn-sm mt-3">View Accessories</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="movie-card text-center p-2">
+          <img src="jailer.webp" class="img-fluid rounded" alt="Jailer Poster">
+          <h5 class="mt-2">Jailer</h5>
+          <p>👕 Checked Shirt | ⌚ Stylish Watch</p>
+          <button class="btn btn-outline-light btn-sm ">View Accessories</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="movie-card text-center p-2">
+          <img src="good.webp" class="img-fluid rounded" alt="Ponniyin Selvan Poster">
+          <h5 class="mt-2">Good Bad Ugly</h5>
+          <p>👑 Designed | 🗡️ Shirts</p>
+          <button class="btn btn-outline-light btn-sm mt-3">View Accessories</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="movie-card text-center p-2">
+          <img src="https://upload.wikimedia.org/wikipedia/en/f/f0/RRR_Poster.jpg" class="img-fluid rounded" alt="RRR Poster">
+          <h5 class="mt-2"></h5>
+          <p>💪 Khaki Outfit | 🔥 Traditional Weapon</p>
+          <button class="btn btn-outline-light btn-sm">View Accessories</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="movie-card text-center p-2">
+          <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/Pushpa_-_The_Rise_%282021_film%29.jpg" class="img-fluid rounded" alt="Pushpa Poster">
+          <h5 class="mt-2">Pushpa: The Rise</h5>
+          <p>👕 Checked Shirt | 🧢 Cap | 🌿 Axe Prop</p>
+          <button class="btn btn-outline-light btn-sm">View Accessories</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="movie-card text-center p-2">
+          <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/K.G.F_Chapter_2.jpg" class="img-fluid rounded" alt="KGF Poster">
+          <h5 class="mt-2">KGF Chapter 2</h5>
+          <p>🧥 Black Leather Jacket | 🪓 Gold Chain</p>
+          <button class="btn btn-outline-light btn-sm">View Accessories</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="movie-card text-center p-2">
+          <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Drishyam_2_poster.jpg" class="img-fluid rounded" alt="Drishyam Poster">
+          <h5 class="mt-2">Drishyam 2</h5>
+          <p>👔 Casual Shirt | 🕶️ Aviator Sunglasses</p>
+          <button class="btn btn-outline-light btn-sm">View Accessories</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+<section class="bg-dark p-4 rounded mt-5">
+  <h3 class="text-danger">Behind the Look</h3>
+  <p>Did you know? The brown leather jacket in <b>Leo</b> was inspired by classic Hollywood biker fashion.</p>
+  <p>In <b>Pushpa</b>, Allu Arjun’s rugged look symbolized the character’s earthy lifestyle.</p>
+</section>
+
+<footer class="text-center py-3 mt-5" style="background-color:#1a1a1a;">
+  <p class="mb-0 text-light">© 2025 MovieMode | Designed by Deepak 🎬</p>
+</footer>
+
+  <!-- JavaScript -->
+  <script>
+    const searchBox = document.getElementById("searchBox");
+    const searchBtn = document.getElementById("searchBtn");
+
+    searchBtn.addEventListener("click", () => {
+      searchBox.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>

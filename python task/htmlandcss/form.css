@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.form{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 250px;    
+}
+.log{
+     margin-left: 280px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+}
+.log-in{
+    width: 70%;
+    border: none;
+    margin-left: 100px;
+    padding: 30px;
+
+}
+.butn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    margin-left: 320px;
+}
+.butn:hover{
+    background-color: rgb(162, 162, 12);
+}
+.form-control{
+    padding: 20px;
+}
+.detail{
+    display: inline-block;
+}
+.log-in-page{
+    text-decoration: none;
+    color: white;
+}

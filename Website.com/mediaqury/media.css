@@ -1,0 +1,64 @@
+.Box {
+    height: 200px;
+    background-color: red;
+}
+
+h1{
+    background-color: white;
+    margin: 50px;
+}
+.flex-content {
+    display: flex;
+    height: 60px;
+
+}
+.envato {
+    font-size: 25px;
+    font-weight: bold;
+    color: lawngreen;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+
+}
+.inside1 {
+    margin-top: 7px;
+}
+
+.inside2 {
+    margin-left: 80%;
+    margin-top: 10px;
+
+}
+@media (max-width:768px) {
+
+    .Box {
+        background-color: green;
+        height: 100px;
+        width: 50%;
+        box-shadow: 20px 20px 30px red;
+    }
+    .inside2 {
+    margin-left: 60%;
+    margin-top: 10px;
+
+}
+
+}
+
+@media (max-width:425px) {
+    .Box {
+        background-color: green;
+        height: 500px;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    h1{
+        box-shadow: 20px 20px 20px red;
+    }
+
+}

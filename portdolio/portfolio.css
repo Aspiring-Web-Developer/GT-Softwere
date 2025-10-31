@@ -1,0 +1,408 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    height: auto;
+}
+.scroll-watcher{
+    height: 6px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: lime;
+    width: 100%;
+    scale: 0 1;
+    animation: scroll-watch linear;
+    animation-timeline: scroll();
+
+}
+@keyframes scroll-watch{
+    to {scale: 1 1;}
+}
+
+header {
+    margin: 0;
+    width: 100%;
+}
+
+.head {
+   
+
+    height: 80px;
+    box-shadow: 10px 20px 30px rgb(62, 61, 61);
+    background: linear-gradient(to left, black 4%,grey 70% ) !important;
+
+}
+
+.name {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 15px;
+    cursor: pointer;font-weight: bold;
+    font-family: "Kode Mono", monospace;
+    transition: 2s;
+
+
+
+}
+
+.name:hover {
+    transition: 0.6s ease-in-out;
+    transform: translateX(80px);
+
+}
+
+
+
+.media {
+    margin-left: 290px;
+
+}
+
+.social {
+
+ color: rgb(225, 243, 32);
+    font-size: 25px;
+    margin-top: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.social:hover {
+    color: rgb(241, 44, 153);
+    
+    transform: rotatey(360deg);
+    transition: 0.3s;
+}
+.social1 {
+
+ color:rgb(225, 243, 32);
+    font-size: 25px;
+    margin-top: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.social1:hover {
+    color: rgb(55, 109, 234);
+    transform: rotatey(360deg);
+    transition: 0.3s;
+}
+.social2 {
+
+ color: rgb(225, 243, 32);
+    font-size: 25px;
+    margin-top: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.social2:hover {
+    color: white;
+    transform: rotatey(360deg);
+    transition: 0.3s;
+}
+.social3 {
+
+ color: rgb(225, 243, 32);
+    font-size: 25px;
+    margin-top: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.social3:hover {
+    color:rgb(78, 196, 243);
+    transform: rotatey(360deg);
+    transition: 0.3s;
+}
+.greet{
+    margin-top: 30px;color: rgb(16, 210, 16) !important;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;letter-spacing: 2px;
+    
+    padding: 10px;
+    text-shadow: 0 0 10px green,
+                 0 0 15px green,
+                 0 0 10px green,
+                 0 0 40px lightgreen,
+                 0 0 70px green,
+                 0 0 80px green;
+    animation:slideIn 1.5s ease-in forwards;
+    transition: 1s;
+
+}
+
+.devep{
+    color: white;
+  
+}
+.touch{
+    margin-top: 20px;
+    font-family:  "Kode Mono", monospace;
+    text-shadow: 0 0 0px green,
+                 0 0 5px green,
+                 0 0 5px green,
+                 0 0 10px lightgreen,
+                 0 0 5px green,
+                 0 0 5px green;
+}
+
+
+.img-back{
+        margin-left: 100px;
+        border-bottom-left-radius: 60px !important;
+        border-top-left-radius: 60px !important;
+        width: 463px;
+       
+}
+
+
+.mypic{
+    height: 450px;
+    width: 370px;
+            border-bottom-right-radius: 60px !important;
+        border-top-left-radius: 60px !important;
+    margin-top: 20px;
+    margin-left: 90px;
+    transition: 1s;
+    border-radius: 5px;
+     border-radius: 12px;     
+    border: 3px solid #fff;   
+
+ 
+    box-shadow: 0 0 20px rgb(0, 255, 30), 
+                0 0 40px rgb(0, 255, 38), 
+                0 0 150px rgb(0, 255, 0);
+
+ 
+    animation: glowPulse 2s infinite alternate;
+    
+}
+
+.mypic:hover{
+    transition: 1s;
+    transform: translateX(-85px);
+}
+@keyframes glowPulse {
+    0% {
+        box-shadow: 0 0 10px rgb(0, 255, 17), 
+                    0 0 20px rgb(0, 255, 42), 
+                    0 0 10px rgb(0, 255, 38);
+    }
+    100% {
+        box-shadow: 0 0 25px rgb(0, 255, 170), 
+                    0 0 30px rgb(0, 255, 234), 
+                    0 0 5px rgb(0, 234, 255);
+    }
+}
+.self{
+    color: rgb(158, 156, 156);
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.requir{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important ;
+    font-size: 24px !important;
+    background-color: black !important;
+    color: white !important;
+    margin-left: 35%;
+    box-shadow: 10px 10px 30px rgb(57, 57, 57);
+    transition: 0.5s ease-in-out;
+    border-radius: 15px !important;
+}
+.requir:hover{
+    color: black !important;
+    background-color: white !important;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+     box-shadow: 10px 10px 30px rgb(147, 147, 147);
+}
+
+
+/* aboutme */
+
+.bio{
+    animation: text-appear both;
+    animation-timeline: view(200px);
+    animation-range: entry 20% cover 100vh;
+    
+}
+@keyframes text-appear{
+    from {transform: translateY(100px);opacity: 0;}
+    to{ transform: translateY(0); opacity: 1;}
+    
+}
+
+.about{
+    text-align: center;
+    color: rgb(16, 210, 16) !important;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;letter-spacing: 2px;
+    margin-top: 30px;
+    padding: 10px;
+    text-shadow: 0 0 10px green,
+                 0 0 15px green,
+                 0 0 10px green,
+                 0 0 40px lightgreen,
+                 0 0 70px green,
+                 0 0 80px green;
+}
+.me{
+     color: rgb(158, 156, 156);
+     text-align: center;letter-spacing: 1px;
+     font-size: 18px;
+     width: 80%;
+     margin-left: 12%;
+}
+
+
+/* skills */
+
+.skills{
+     animation: text-appear both;
+    animation-timeline: view(200px);
+    animation-range: entry 20% cover 100vh;
+}
+.myskill{
+     text-align: center;
+    color: white !important;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;letter-spacing: 2px;
+    margin-top: 30px;
+    padding: 10px;
+    text-shadow: 0 0 10px green,
+                 0 0 10px green,
+                 0 0 10px green,
+                 0 0 30px lightgreen,
+                 0 0 20px green,
+                 0 0 30px green;
+}
+
+
+.language{
+     text-align: center;
+    color: lime !important;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;letter-spacing: 2px;
+    margin-top: 30px;margin-left: 50px ;
+    padding: 10px;
+    text-shadow: 0 0 10px green,
+                 0 0 10px green,
+                 0 0 10px green,
+                 0 0 30px lightgreen,
+                 0 0 20px green,
+                 0 0 30px green;
+}
+.language1{
+     text-align: center;
+    color: lime !important;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;letter-spacing: 2px;
+    margin-top: 30px;
+    padding: 10px;
+    text-shadow: 0 0 10px green,
+                 0 0 10px green,
+                 0 0 10px green,
+                 0 0 30px lightgreen,
+                 0 0 20px green,
+                 0 0 30px green;
+}
+.language2{
+     text-align: center;
+    color: lime !important;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;letter-spacing: 2px;
+    margin-top: 30px;
+    padding: 10px;
+    text-shadow: 0 0 10px green,
+                 0 0 10px green,
+                 0 0 10px green,
+                 0 0 30px lightgreen,
+                 0 0 20px green,
+                 0 0 30px green;
+}
+.skill-item{
+     color: rgb(158, 156, 156);
+     text-align: center;letter-spacing: 1px;
+     font-size: 18px;
+    
+     list-style: none;border-right: 1px solid gray;
+
+
+}
+.unorder{
+    margin-top: 80px;
+}
+.unorder2{
+    margin-top: 40px;
+}
+
+.others{
+    color: rgb(158, 156, 156);
+     text-align: center;letter-spacing: 1px;
+     font-size: 18px;
+     width: 80%;margin-top: 80px;margin-left: 50px;
+     
+}
+
+
+/* .project {
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+} */
+
+@media (max-width:768px) {
+    .header{
+        width: 95% !important;
+       
+    }
+    .media{
+        margin-left: 110px;
+    }
+    .mypic{
+        height: 600px;
+        width: 500px;
+        margin-left: 0px;
+    }
+    .others{
+        margin-top: 60px;
+    }
+    .unorder{
+    margin-top: 70px;
+}
+.skill-item{
+    border: none;
+    margin-left: 0px;
+}
+.unorder2{
+    margin-top: 40px;
+    padding-right: 10px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    
+}
+.requir{
+    margin-left: 0px;
+}
+    
+}
+@media (max-width:425px){
+    .header{
+        width: 100% !important;
+    }
+    .name{
+        margin-left: 0 !important;
+    }
+   
+}
